@@ -5,7 +5,7 @@ Welcome to my GitHub!
 
 ## 📫 Contact Me
  
-- 💼 LinkedIn: https://linkedin.com/in/anjanimalhotra 
+- 💼 LinkedIn: www.linkedin.com/in/anjani-malhotra 
 
 ---
 
