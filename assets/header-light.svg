@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="900" height="262" role="img" aria-labelledby="title desc">
+  <title id="title">Anjani Malhotra: from messy data to AI agents</title>
+  <desc id="desc">Data moves from messy sources through pipelines and analysis into AI agents, and each decision feeds back in as new data.</desc>
+  <style>
+    text { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+    .name { font-size: 34px; font-weight: 600; fill: #1f2328; }
+    .tag { font-size: 16px; fill: #59636e; }
+    .label { font-size: 16px; font-weight: 600; fill: #1f2328; }
+    .sub { font-size: 12.5px; fill: #59636e; }
+    .wire { stroke: #8c959f; stroke-width: 1.5; fill: none; }
+    .loop { stroke-dasharray: 5 6; animation: flow 1.4s linear infinite; }
+    .node { animation: pulse 3s ease-in-out infinite; }
+    .dot { fill: #1d9e75; animation: travel 3s linear infinite; }
+    @keyframes pulse { 0%, 100% { stroke-width: 1; } 25% { stroke-width: 3; } }
+    @keyframes travel { from { transform: translateX(0); } to { transform: translateX(660px); } }
+    @keyframes flow { to { stroke-dashoffset: 22; } }
+    @media (prefers-reduced-motion: reduce) {
+      .node, .dot, .loop { animation: none; }
+      .dot { display: none; }
+    }
+  </style>
+  <text x="25" y="50" class="name">Anjani Malhotra</text>
+  <text x="25" y="82" class="tag">AI systems for real businesses, and the data foundations under them</text>
+  <path class="wire" d="M215 148H245M435 148H465M655 148H685"/>
+  <path class="wire loop" d="M780 184V218Q780 228 770 228H130Q120 228 120 218V184"/>
+  <circle class="dot" cx="120" cy="148" r="5"/>
+  <g>
+    <rect class="node" style="animation-delay:0.0s" x="25" y="112" width="190" height="72" rx="8" fill="#f6f8fa" stroke="#8c959f"/>
+    <text x="120" y="142" text-anchor="middle" class="label">Messy data</text>
+    <text x="120" y="164" text-anchor="middle" class="sub">Emails, PDFs, legacy systems</text>
+  </g>
+  <g>
+    <rect class="node" style="animation-delay:0.75s" x="245" y="112" width="190" height="72" rx="8" fill="#e1f5ee" stroke="#0f6e56"/>
+    <text x="340" y="142" text-anchor="middle" class="label">Pipelines</text>
+    <text x="340" y="164" text-anchor="middle" class="sub">Extract, validate, store</text>
+  </g>
+  <g>
+    <rect class="node" style="animation-delay:1.5s" x="465" y="112" width="190" height="72" rx="8" fill="#faece7" stroke="#993c1d"/>
+    <text x="560" y="142" text-anchor="middle" class="label">Analysis</text>
+    <text x="560" y="164" text-anchor="middle" class="sub">Find what matters</text>
+  </g>
+  <g>
+    <rect class="node" style="animation-delay:2.25s" x="685" y="112" width="190" height="72" rx="8" fill="#eeedfe" stroke="#534ab7"/>
+    <text x="780" y="142" text-anchor="middle" class="label">AI agents</text>
+    <text x="780" y="164" text-anchor="middle" class="sub">Act, with human sign-off</text>
+  </g>
+  <text x="450" y="250" text-anchor="middle" class="sub">Every decision becomes new data</text>
+</svg>
