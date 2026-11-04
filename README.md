@@ -26,7 +26,7 @@ A fully local AI copilot that reviews contracts against company standards. It gi
 ## Recently shipped
 
 <!-- RECENT:START -->
-- **2 Nov 2026** · [legal-docs-review](https://github.com/AnjaniMalhotra/legal-docs-review)
+- **3 Nov 2026** · [legal-docs-review](https://github.com/AnjaniMalhotra/legal-docs-review)
 - **30 Oct 2026** · [Hospital-insurance-FDE](https://github.com/AnjaniMalhotra/Hospital-insurance-FDE)
 - **23 Oct 2026** · [FDE-northstar-legacy-system](https://github.com/AnjaniMalhotra/FDE-northstar-legacy-system)
 - **7 Oct 2026** · [JEV-Business-Leads-Inbox](https://github.com/AnjaniMalhotra/JEV-Business-Leads-Inbox)
